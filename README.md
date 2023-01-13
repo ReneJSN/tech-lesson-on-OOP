@@ -1,0 +1,5 @@
+Static, protected, and private are terms used in object-oriented programming to define the accessibility of class members.
+
+Static members are class-level variables or methods that can be accessed without creating an instance of the class. They are often used for utility functions or for maintaining a global state for the class. For example, a static method in a math class that calculates the square root of a number can be called without creating an instance of the math class.
+
+Protected and private members, on the other hand, are used to control the accessibility of class members within an inheritance hierarchy. Protected members can be accessed by the class itself and its derived classes, while private members can only be accessed by the class itself. This allows for encapsulation of implementation details within a class and prevents external code from modifying the internal state of an object. For example, a class that represents a bank account might have a private balance variable that is only accessible to methods within the class, to ensure the integrity of the account balance.
